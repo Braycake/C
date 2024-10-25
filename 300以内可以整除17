@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main(void)
+{
+    int num,i=1;
+    for(;i<=300;i++){
+        if(i%17==0）{
+            printf("%d",i);
+        }
+    }
+    printf("\n");
+    return 0;
+}
+
+//该条件的最大值
+#include<stdio.h>
+int main(void)
+{
+    int num,i=1;
+    for(i=300;i>=1;i--){
+        if(i%17==0）{
+            printf("%d",i);
+            break;
+        }
+    }
+    printf("\n");
+    return 0;
+}
