@@ -1,0 +1,7 @@
+//输出金字塔型*号
+for(k2=1;k2<=4-k1;k2++)
+  putchar('');
+for(k2=1;k2<=k1*2-1;;k2++)
+  putchar('*');
+ putchar('\n');
+
